@@ -1,0 +1,6 @@
+.message-markdown * {
+  color: white !important;
+  white-space: normal; /* Allows text to wrap */
+  word-break: keep-all; /* Prevents words from breaking in the middle */
+  overflow-wrap: normal; /* Ensures word */
+}
