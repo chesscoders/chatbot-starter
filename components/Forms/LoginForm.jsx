@@ -23,7 +23,7 @@ const LoginForm = () => {
           <Field id="password" name="password" as={Password} />
         </Fieldset>
 
-        <Submit className="mt-4 button px-12 full border-none bg-softRed text-white">Login</Submit>
+        <Submit className="mt-4 button px-12 full border-none bg-secondary text-white">Login</Submit>
       </div>
     </HookForm>
   );

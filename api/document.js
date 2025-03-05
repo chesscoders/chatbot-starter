@@ -24,7 +24,7 @@ export const addDocument = async ({ input, text }) => {
   });
   try {
     await axiosAuth.post('admin/documents', { documents });
-    toaster.success('Success! SuperBot is now smarter.');
+    toaster.success('Success! ChatBot Starter is now smarter.');
   } catch (err) {
     console.error(err);
     toaster.error('Error! Please try again later.');

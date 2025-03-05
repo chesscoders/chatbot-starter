@@ -9,7 +9,7 @@ const ProfileMenu = () => {
 
   return (
     <ul className="flex flex-col py-2">
-      <li className="hover:text-softRed">
+      <li className="hover:text-secondary">
         <button className="flex items-center px-4 py-2 no-underline" onClick={logout}>
           <i className="fas fa-sign-out-alt w-6"></i>
           Logout

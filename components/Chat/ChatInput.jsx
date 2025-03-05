@@ -7,9 +7,9 @@ const ChatInput = ({ userInput, setUserInput, handleSend, handleKeyDown }) => {
         onChange={(e) => setUserInput(e.target.value)}
         onKeyDown={handleKeyDown}
         placeholder="Scrie un mesaj..."
-        className="px-4 py-3 rounded-lg bg-veryDarkGray border-softRed border-1 text-white placeholder-mutedGray focus:outline-none focus:ring-2 focus:ring-softRed resize-none"
+        className="px-4 py-3 rounded-lg bg-veryDarkGray border-secondary border-1 text-white placeholder-mutedGray focus:outline-none focus:ring-2 focus:ring-secondary resize-none"
       />
-      <button onClick={handleSend} className="ml-2 px-4 py-2 h-full bg-softRed rounded-lg w-24">
+      <button onClick={handleSend} className="ml-2 px-4 py-2 h-full bg-secondary rounded-lg w-24">
         <i className="fa-light fa-paper-plane fa-2x text-veryDarkGray" />
       </button>
     </div>

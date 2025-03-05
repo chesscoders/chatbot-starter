@@ -12,10 +12,10 @@ const MenuItem = ({ href, icon, children, level = 1 }) => {
     <Link
       href={href}
       className={classnames(
-        'menu-item cursor-pointer px-4 py-1 hover:bg-softRed hover:text-darkGray text-base leading-normal',
+        'menu-item cursor-pointer px-4 py-1 hover:bg-secondary hover:text-darkGray text-base leading-normal',
         'no-underline',
         level == 1 ? 'pl-4' : 'pl-8',
-        isActive && 'font-semibold bg-softRed text-darkGray'
+        isActive && 'font-semibold bg-secondary text-darkGray'
       )}
     >
       <div className="flex">

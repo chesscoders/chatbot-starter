@@ -15,14 +15,14 @@ const Profile = () => {
         role="button"
       >
         <div className="flex items-center gap-2">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full">
-            <img src="https://jucatorul.ro/wp-content/uploads/2022/12/superbet-logo-cerc-1.png" />
+          <div className="w-10 h-10 rounded-full flex justify-center items-center bg-secondary">
+            <i className="text-lg text-white fas fa-user"></i>
           </div>
         </div>
         {isOpen ? (
-          <i className="fas fa-chevron-up text-softRed"></i>
+          <i className="fas fa-chevron-up text-secondary"></i>
         ) : (
-          <i className="fas fa-chevron-down text-softRed"></i>
+          <i className="fas fa-chevron-down text-secondary"></i>
         )}
       </div>
       {isOpen && (

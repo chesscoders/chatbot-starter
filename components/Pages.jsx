@@ -16,12 +16,6 @@ const Pages = () => {
       <MenuItem href="/admin/faq-base" icon="fa-light fa-comments-question-check" level="1">
         FAQ Base
       </MenuItem>
-      <MenuItem href="/admin/regulations" icon="fa-light fa-gavel" level="1">
-        Regulations
-      </MenuItem>
-      <MenuItem href="/admin/responsible-gaming" icon="fa-light fa-shield-check" level="1">
-        Responsible Gaming
-      </MenuItem>
     </>
   );
 };

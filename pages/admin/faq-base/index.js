@@ -13,7 +13,7 @@ const Page = () => {
         <h2 className="mb-4 text-2xl font-semibold">Consult FAQ Base</h2>
         <p>
           This page lists the static knowledge base of{' '}
-          <span className="text-softRed font-bold">SuperBot</span>.
+          <span className="text-secondary font-bold">ChatBot Starter</span>.
         </p>
         <div className="py-4 w-full md:max-w-xs">
           <Search
@@ -21,7 +21,7 @@ const Page = () => {
             value={search}
             onChange={setSearch}
             inputClassname={
-              'p-4 pl-8 rounded-lg bg-veryDarkGray border-softRed border-1 text-white placeholder-mutedGray focus:outline-none focus:ring-2 focus:ring-softRed resize-none'
+              'p-4 pl-8 rounded-lg bg-veryDarkGray border-secondary border-1 text-white placeholder-mutedGray focus:outline-none focus:ring-2 focus:ring-secondary resize-none'
             }
           />
         </div>

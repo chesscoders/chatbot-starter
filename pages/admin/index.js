@@ -6,13 +6,13 @@ const Page = () => {
     <Layout title="Dashboard">
       <div className="max-w-full flex flex-col gap-8 md:gap-12">
         <div>
-          <h3 className="text-2xl font-bold text-mutedGray mb-4">Chat with SuperBot</h3>
+          <h3 className="text-2xl font-bold text-mutedGray mb-4">Chat with ChatBot Starter</h3>
           <div className="flex flex-col items-center gap-4 md:flex-row">
             <DashboardCard
               href="/admin/chat"
               icon="fa-light fa-robot" // Use an appropriate Font Awesome icon for chat
               title="Chat"
-              description="Q&A with SuperBot"
+              description="Q&A with ChatBot Starter"
             />
 
             <DashboardCard

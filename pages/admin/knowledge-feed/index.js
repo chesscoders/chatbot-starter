@@ -10,7 +10,7 @@ const Page = () => {
         <h2 className="mb-4 text-2xl font-semibold">Manage Knowledge Base</h2>
         <p>
           This page allows feeding new data into{' '}
-          <span className="text-softRed font-bold">SuperBot</span>.
+          <span className="text-secondary font-bold">ChatBot Starter</span>.
         </p>
         <div className="py-8">
           <h3 className="mb-4 text-2xl font-semibold">Feed New Data</h3>

@@ -7,9 +7,9 @@ const DashboardCard = ({ href, icon, title, description }) => (
   >
     <div className="flex flex-col items-center text-center">
       {/* Circle Background for Icon */}
-      <div className="w-32 h-32 flex items-center justify-center rounded-full bg-veryDarkGray mb-4 transition-colors duration-300 group-hover:bg-softRed">
+      <div className="w-32 h-32 flex items-center justify-center rounded-full bg-veryDarkGray mb-4 transition-colors duration-300 group-hover:bg-secondary">
         <i
-          className={`${icon} text-6xl text-softRed transition-colors duration-300 group-hover:text-veryDarkGray`}
+          className={`${icon} text-6xl text-secondary transition-colors duration-300 group-hover:text-veryDarkGray`}
         ></i>
       </div>
       <h3 className="text-xl font-bold text-mutedGray mb-2">{title}</h3>

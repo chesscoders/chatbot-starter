@@ -22,7 +22,7 @@ const DocumentDeleteZone = ({ id, setIsModalOpen }) => {
     <>
       {!showConfirm && (
         <Button
-          className="button full bg-softRed border-none float-right w-48"
+          className="button full bg-secondary border-none float-right w-48"
           onClick={() => setShowConfirm(true)}
         >
           <i className="fa-solid fa-trash-can mr-2" />
@@ -32,7 +32,7 @@ const DocumentDeleteZone = ({ id, setIsModalOpen }) => {
       {showConfirm && (
         <div className="flex justify-between items-center">
           <p>
-            <span className="text-softRed font-bold">Danger Zone!</span> Are you sure?
+            <span className="text-secondary font-bold">Danger Zone!</span> Are you sure?
           </p>
           {/* Using row reverse to prevent accidental double clicking on the delete button */}
           <div className="flex gap-4 flex-row-reverse">
@@ -43,7 +43,7 @@ const DocumentDeleteZone = ({ id, setIsModalOpen }) => {
               <i className="fa-solid fa-arrow-left mr-2" />
               Back
             </Button>
-            <Button className="button full bg-softRed border-none w-48" onClick={handleDelete}>
+            <Button className="button full bg-secondary border-none w-48" onClick={handleDelete}>
               <i className="fa-solid fa-trash-can mr-2" />
               Confirm Delete
             </Button>

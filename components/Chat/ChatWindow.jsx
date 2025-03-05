@@ -148,7 +148,7 @@ const ChatWindow = ({ onClose, isShortAnswer }) => {
           onClick={() => setChatMode('avatar')}
         >
           Avatar{' '}
-          <sup className=" absolute bg-softRed  text-[8px] rounded-full p-1.5 pb-2 top-0 -right-3">
+          <sup className=" absolute bg-secondary  text-[8px] rounded-full p-1.5 pb-2 top-0 -right-3">
             New
           </sup>
         </div>

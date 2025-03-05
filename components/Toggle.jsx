@@ -21,7 +21,7 @@ const Toggle = ({ label = 'Toggle me', initialState = false, onToggle, disabled,
         disabled && 'opacity-50 cursor-not-allowed'
       )}
     >
-      <span className="mr-3 text-sm font-medium text-softRed">{label}</span>
+      <span className="mr-3 text-sm font-medium text-secondary">{label}</span>
       <input
         type="checkbox"
         checked={isChecked}

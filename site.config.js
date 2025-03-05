@@ -1,7 +1,7 @@
 module.exports = {
-  sitename: 'SuperBot MVP',
+  sitename: 'ChatBot Starter',
   description: `
-  MVP for SuperBot - a Customer Support AI specialist.
+    ChatBot Starter is a starter template for building chatbots, Chess Coders style.
   `,
   baseurl: `${process.env.APP_BASE_URL}`,
   image: `${process.env.APP_BASE_URL}/images/logo.png`,

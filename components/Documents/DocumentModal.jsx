@@ -15,7 +15,7 @@ const DocumentModal = ({ _id, title, tag, text, setIsModalOpen, readOnly }) => {
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 p-4">
       <div className="bg-darkGray rounded-lg p-8 w-full max-w-2xl relative max-h-[90vh] overflow-hidden">
         <h3 className="text-2xl font-bold text-white mb-4">{title}</h3>
-        <span className="bg-veryDarkGray text-softRed rounded-full px-3 py-1 text-xs font-semibold mb-4 inline-block">
+        <span className="bg-veryDarkGray text-secondary rounded-full px-3 py-1 text-xs font-semibold mb-4 inline-block">
           #{tag}
         </span>
 
@@ -29,7 +29,7 @@ const DocumentModal = ({ _id, title, tag, text, setIsModalOpen, readOnly }) => {
 
         <button
           onClick={() => setIsModalOpen(false)}
-          className="absolute top-4 right-4 text-softRed text-lg font-bold"
+          className="absolute top-4 right-4 text-secondary text-lg font-bold"
           aria-label="Close"
         >
           &times;

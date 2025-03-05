@@ -22,7 +22,7 @@ const Menu = ({ toggleComponent }) => {
           <div className="flex flex-col py-8">
             <Link href="/admin" className="hover:text-white">
               <div className="px-4">
-                <h1 className="mb-12 text-2xl">SuperBot MVP</h1>
+                <h1 className="mb-12 text-2xl">ChatBot Starter</h1>
               </div>
             </Link>
             <Pages />
