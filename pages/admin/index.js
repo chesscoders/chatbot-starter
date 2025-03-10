@@ -28,20 +28,8 @@ const Page = () => {
           <div className="flex flex-col items-center gap-4 md:flex-row">
             <DashboardCard
               href="/admin/faq-base"
-              icon="fa-light fa-comments-question-check" // Use an appropriate Font Awesome icon for knowledge feed
+              icon="fa-light fa-comments-question-check"
               title="FAQ Base"
-              description="View Static Content"
-            />
-            <DashboardCard
-              href="/admin/regulations"
-              icon="fa-light fa-gavel" // Use an appropriate Font Awesome icon for knowledge feed
-              title="Regulations"
-              description="View Static Content"
-            />
-            <DashboardCard
-              href="/admin/responsible-gaming"
-              icon="fa-light fa-shield-check" // Use an appropriate Font Awesome icon for knowledge feed
-              title="Responsible Gaming"
               description="View Static Content"
             />
           </div>
